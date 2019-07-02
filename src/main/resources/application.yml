@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: "when-authorized"
+spring:
+  security:
+    user:
+      name: user
+      password: 0k
